@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenido-principal {
+    margin-right: 600px; /* Deja espacio para el carrito fijo */
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 10px;
+    background-color: #f9f9f9;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    background-color: #333;
+}
+
+.content {
+    padding: 200px 80px;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.text-box, .image-box {
+    flex: 1;
+    padding: 40px;
+}
+
+.text-box {
+    max-width: 500px;
+    margin-top: 40px;
+    padding: auto;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+footer {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+
+footer .social a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+footer .social a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.logo  {
+    height: 80px;
+    margin-right: 25px;
+}
+.text-box-carcasas {
+    text-align: center; 
+}
+.text-box-carcasas .cta-btn {
+    margin-top: 20px; /* Espacio entre la imagen y el botón */
+    padding: 10px 20px; /* Espacio interno (dentro del botón) */
+    display: inline-block; /* Asegura que se mantenga como un botón */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    background-color: black; /* Color de fondo opcional */
+    color: white; /* Color de texto */
+    border-radius: 5px; /* Bordes redondeados */
+    white-space: nowrap;/* Sin espacio en boton */
+ }
+ .text-box-carcasas h2 {
+    margin-bottom: 20px; /* Ajusta el valor según el espacio que desees */
+ }
+ .text-box-micas .cta-btn {
+    margin-top: 20px; /* Espacio entre la imagen y el botón */
+    padding: 10px 20px; /* Espacio interno (dentro del botón) */
+    display: inline-block; /* Asegura que se mantenga como un botón */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    background-color: black; /* Color de fondo opcional */
+    color: white; /* Color de texto */
+    border-radius: 5px; /* Bordes redondeados */
+    white-space: nowrap;/* Sin espacio en boton */
+ }
+ .text-box-micas h2 {
+    margin-bottom: 20px; /* Ajusta el valor según el espacio que desees */
+ }
+ .text-box-micas {
+    text-align: center;
+}.text-box-fundas .cta-btn {
+    margin-top: 20px; /* Espacio entre la imagen y el botón */
+    padding: 10px 20px; /* Espacio interno (dentro del botón) */
+    display: inline-block; /* Asegura que se mantenga como un botón */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    background-color: black; /* Color de fondo opcional */
+    color: white; /* Color de texto */
+    border-radius: 5px; /* Bordes redondeados */
+    white-space: nowrap; /* Sin espacio en boton */
+ }
+ .text-box-fundas h2 {
+    margin-bottom: 20px; /* Ajusta el valor según el espacio que desees */
+ }
+ .text-box-fundas {
+    text-align: center;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10;
+    padding: 10;
+  }
+
+
+
+#store-container {
+    
+    display: flex;
+  gap: 10px;
+}
+.child {
+    flex-grow: 1;
+}
+  #store-container .item {
+    border: solid 1px #ccc;
+    padding: 20px;
+  }
+  
+  #shopping-cart-container {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    border: solid 1px #ccc;
+    padding: 10px;
+    justify-content: end;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .item .title {
+    font-weight: bold;
+  }
+  .item .price {
+    color: green;
+    font-weight: bold;
+  }
+  .item div {
+    padding: 5px 0;
+  }
+  
+  .total {
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+  }
+button {
+    border: none;
+    background-color:#aaadac;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
